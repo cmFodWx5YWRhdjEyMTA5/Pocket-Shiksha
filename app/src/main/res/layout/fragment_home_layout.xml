@@ -1,0 +1,66 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.pocketshiksha.pocketshiksha.Students.homeScreen.HomeFragment">
+
+
+        <RelativeLayout
+            android:id="@+id/new_feeds"
+            android:layout_width="wrap_content"
+            android:elevation="10dp"
+            android:layout_height="130dp">
+            <LinearLayout
+                android:foreground="@drawable/gradient_overlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+                android:id="@+id/NewsFeeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+            </LinearLayout>
+
+            <com.tbuonomo.viewpagerdotsindicator.DotsIndicator
+                android:id="@+id/dots_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                app:dotsColor="@color/white"
+                app:dotsSize="10dp"
+                app:dotsWidthFactor="3" />
+
+            <!-- TODO: Update blank fragment layout -->
+
+            </RelativeLayout>
+
+        <LinearLayout
+            android:scrollbars="none"
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/new_feeds"
+            android:orientation="vertical">
+
+           <GridView
+               android:layout_margin="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:verticalSpacing="5dp"
+               android:horizontalSpacing="5dp"
+               android:id="@+id/mainhome_grid"
+               android:numColumns="2"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+

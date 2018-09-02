@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pocketshiksha.pocketshiksha">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:supportsRtl="true">
+        <activity
+            android:name=".welcome.Intro.WelcomeActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.ALTERNATIVE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".welcome.logins.LoginTypeSelection"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan"  />
+        <activity
+            android:name=".welcome.logins.LoginTypes.ParensLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity android:name=".welcome.logins.LoginTypes.StudentLoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".welcome.logins.LoginActivityFireBase"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".welcome.Splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Students.StudentsMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Dialog forms -->
+        <activity
+            android:name=".Students.editing.EditPassword"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.editing.EditAddress"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.editing.EditPhoneNumber"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.editing.EditEmail"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.editing.EditError"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.editing.ProfileChanger"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.homeScreen.forms.QueryForm"
+            android:theme="@style/AppDialog" />
+        <activity
+            android:name=".Students.homeScreen.forms.BugForm"
+            android:theme="@style/AppDialog"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".Students.homeScreen.forms.IssueForm"
+            android:theme="@style/AppDialog"
+            android:windowSoftInputMode="stateHidden" />
+        <!-- STORE FRAGMENT -->
+        <activity
+            android:name=".Students.homeScreen.homeFragment.pocketStore.storeFragmentsMain.StoreFragment"
+            android:label="Store"
+            android:theme="@style/AppStoreTheme" />
+        <!-- Library Fragment -->
+        <activity
+            android:name=".Students.homeScreen.homeFragment.pocketStore.storeFragmentsMain.LibraryFragment"
+            android:label="Library"
+            android:theme="@style/AppStoreTheme" />
+        <activity
+            android:name=".Students.homeScreen.homeFragment.chat.MailActivityMain"
+            android:label="@string/title_activity_chat_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".welcome.registration.StudentRegistrationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".Students.homeScreen.forms.AddingCollege"
+            android:theme="@style/AppDialog"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Students.paymentGateway.PaymentGateway" />
+        <activity
+            android:name=".Parents.ParentsMainActivity"
+            android:label="@string/title_activity_parents_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parents.ParentMarks"
+            android:label="Marks"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+    </application>
+
+</manifest>

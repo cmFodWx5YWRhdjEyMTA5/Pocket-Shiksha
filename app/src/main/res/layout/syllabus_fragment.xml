@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Students.homeScreen.studeMaterialFragment.syllabusFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/notes_headline"
+            android:gravity="center"
+            android:text="Choose A Branch"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/notes_headline"
+            android:gravity="center"
+            android:text="Engineering Mathematics"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Core Topics:"
+            android:textStyle="bold"
+            android:textColor="#208B95"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Linear Algebra:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:textAlignment="inherit"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="Vector algebra, Matrix Algebra, systems of linear equations. rank of a matrix, eigenvales and eigen vectors."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Calculus:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="Functions of single variable, limit, continuity and differentiability, Mean value theorems,Indeterminate forms and L'Hospital rule, Maxima and minima, Taylor's series, Fundamental and mean value-theorems of integral calculus. Evaluation of definite and improper integrals, Beta and Gamma functions, Functions of two variables, limit, continuity, partial derivatives, Euler's theorem for homogeneous functions, total derivatives, maxima and minima, Lagrange method of multipliers, double and triple integrals and their applications, sequence and series, tests for convergence, power series, Fourier Series, Half range sine and cosine series. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Complex variables:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="Analytic functions, Cauchy-Riemann equations, Application in solving potential problems, Line integral, Cauchy's integral theorem and integral formula (without proof), Taylor's and Laurent' series, Residue theorem (without proof) and its applications. "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Vector Calculus:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="Gradient, divergence and curl, vector identities, directional derivatives, line, surface and volume integrals, Stokes, Gauss and Green's theorems (without proofs) applications. "/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Ordinary Differential Equations:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="First order equation (linear and nonlinear), Second order linear differential equations with variable coefficients, Variation of parameters method, higher order linear differential equations with constant coefficients, Cauchy- Euler's equations, power series solutions, Legendre polynomials and Bessel's functions of the first kind and their properties. "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#208B95"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:text="Numerical Methods:"/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical|left"
+            android:textColor="#E06917"
+            android:layout_height="wrap_content"
+            android:text="Solution of a system of linear equations by L-U decomposition, Gauss-Jordan and Gauss-Seidel Methods, Newton's interpolation formulae, Solution of a polynomial and a transcendental equation by Newton-Raphson method, numerical integration by trapezoidal rule, Simpson's rule and Gaussian quadrature, numerical solutions of first order differential equation by Euler's method and 4th order Runge-Kutta method. "/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

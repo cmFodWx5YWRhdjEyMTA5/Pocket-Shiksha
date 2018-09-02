@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:id="@+id/content_palet"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:background="#F3F3F3"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/bag"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:src="@drawable/desk"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:src="@drawable/laptop"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:src="@drawable/tools"
+                android:layout_margin="5dp"/>
+            <ImageView
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+               android:src="@drawable/uniform"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <View
+        android:id="@+id/placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+<!--
+
+
+    <HorizontalScrollView
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="none"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/store_button"
+                android:layout_width="120dp"
+                android:text="Stationary"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/store_button"
+                android:layout_width="120dp"
+
+                android:text="Uniform"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/store_button"
+                android:text="Equipments"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:textColor="@color/white"
+                android:background="@drawable/store_button"
+                android:text="Merchandise"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    -->
+</LinearLayout>

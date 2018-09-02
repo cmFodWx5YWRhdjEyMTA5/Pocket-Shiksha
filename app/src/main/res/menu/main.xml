@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@mipmap/ic_audio_notification_am_alpha"
+        android:title="@string/notification"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_chats"
+        android:icon="@drawable/ic_chat_box"
+        android:title="@string/menu_chat"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_logout"
+        android:icon="@drawable/ic_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="ifRoom" />
+</menu>

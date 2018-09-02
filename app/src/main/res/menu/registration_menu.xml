@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+    -->
+    <item android:id="@+id/register_student"
+        android:title="Register as Student" />
+
+    <item android:id="@+id/register_parent"
+        android:title="Register as Parent" />
+
+    <item android:id="@+id/forgot_pass"
+        android:title="Forgot Password" />
+
+    <item android:id="@+id/what_is"
+        android:title="What is Pocket Shiksha" />
+</menu>

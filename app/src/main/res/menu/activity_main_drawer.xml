@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_clicked"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/ic_library_clicked"
+            android:title="@string/library" />
+        <item
+            android:id="@+id/nav_exams"
+            android:icon="@drawable/ic_exams_clicked"
+            android:title="@string/exams" />
+        <item
+            android:id="@+id/nav_tracker"
+            android:icon="@drawable/ic_tracker_clicked"
+            android:title="@string/tracker" />
+    </group>
+
+    <item android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/nav_add_college"
+                android:icon="@drawable/button_action_dark_selector"
+                android:title="@string/add_a_college"/>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+
+    <item android:title="Pocket Shiksha">
+        <menu>
+            <item
+                android:id="@+id/nav_query"
+                android:icon="@drawable/ic_query"
+                android:title="@string/query" />
+            <item
+                android:id="@+id/nav_issues"
+                android:icon="@drawable/ic_issues"
+                android:title="@string/issues" />
+            <item
+                android:id="@+id/nav_bug"
+                android:icon="@drawable/ic_bug"
+                android:title="@string/report_a_bug" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_pocket_shiksha_app_icon"
+                android:title="@string/about_us" />
+            <item
+                android:id="@+id/nav_locate"
+                android:icon="@drawable/ic_locate"
+                android:title="@string/find_us" />
+        </menu>
+    </item>
+
+</menu>

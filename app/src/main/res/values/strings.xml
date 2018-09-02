@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Pocket Shiksha</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="txt_content">Double back press to exit the application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notification">Notification</string>
+    <string name="update_error">Few contents are not allowed to be edited by the students. In order to edit these contents a special application has to be sent to out admin, with photo id evidence of the same. The contents will then then reviewed by out team and updated as such.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pocket_store">Pocket Store</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_chat_main">Mail Box</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_section1">Favourites</string>
+    <string name="title_section2">Chats</string>
+    <string name="title_section3">Students</string>
+    <string name="title_activity_dhur_baal">Dhur Baal</string>
+    <string name="background">Background</string>
+    <string name="title_teacherprivilege_list">Teacher Privileges</string>
+    <string name="title_teacherprivilege_detail">Teacher Privilege Detail</string>
+    <string name="login"><![CDATA[< Login]]></string>
+    <string name="next"><![CDATA[Next >]]></string>
+
+
+    <!-- intro -->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next1">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_o_title">Pocket Shiksha</string>
+    <string name="slide_o_desc">Welcome to Pocket Shiksha, you one stop solution for all your Academic Information</string>
+
+    <string name="slide_2_title">Study Material</string>
+    <string name="slide_2_desc">Get updated with your current syllabus and you required notes.</string>
+
+    <string name="slide_1_title">Tracker</string>
+    <string name="slide_1_desc">Track all your academic Activities, Attendace and Marks in one place.</string>
+
+    <string name="slide_3_title">Library</string>
+    <string name="slide_3_desc">You get all you need to study harder and more here at out Pocket Shiksha Library</string>
+
+    <string name="slide_4_title">Blue Book</string>
+    <string name="slide_4_desc">Get you college timetable and your current results here.</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="add_a_college">Add a college</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="tracker">Tracker</string>
+    <string name="exams">Exams</string>
+    <string name="library">Library</string>
+    <string name="profile">Profile</string>
+    <string name="query">Query</string>
+    <string name="issues">Issues</string>
+    <string name="report_a_bug">Report a Bug</string>
+    <string name="about_us">About Us</string>
+    <string name="find_us">Find Us</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="submit">Submit</string>
+    <string name="menu_chat">Chat</string>
+    <string name="title_activity_parents_main">Parents</string>
+    <string name="demo_address">#65, Abhigna 2nd Cross,BhoomikaLayout ,Hesaragatta Main Road, Bangalore-5600090</string>
+    <string name="change_password">Change Password</string>
+
+
+    <!--Demo SPINNERS-->
+    <string name="course_prompt">Choose a course</string>
+    <string-array name="course_arrays">
+        <item>Engineering</item>
+    </string-array>
+
+
+    <string name="branch_prompt">Choose a branch</string>
+    <string-array name="branch_arrays">
+        <item>Mechanical</item>
+        <item>Computer Science</item>
+        <item>Civil</item>
+    </string-array>
+
+    <string name="college_prompt">Choose a College</string>
+    <string name="pocket_shiksha">Pocket Shiksha  &#8482;</string>
+    <string-array name="college_arrays">
+        <item>Acharya Institute of Technology</item>
+        <item>Shri Krishna Institute of TEchnology</item>
+        <item>Dayanand Sagar Institute of technology</item>
+    </string-array>
+
+    <string name="sem_prompt">Select Sem</string>
+    <string-array name="sem_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+
+    <!-- Mailing service-->
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+
+</resources>

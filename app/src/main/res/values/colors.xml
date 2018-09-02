@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary colors -->
+    <color name="colorPrimary">#1E8B95</color>
+    <color name="colorPrimaryDark">#177780</color>
+    <color name="colorAccent">#015C65</color>
+
+    <color name="nav">#1e8c96</color>
+
+    <!--Buttons -->
+    <color name="buttons">#1E8B95</color>
+
+
+    <!-- Tab background-->
+    <color name="trans">#1e8c96</color>
+    <color name="none">#000000</color>
+    <color name="tab_border">#a7a7aa</color>
+    <color name="tab_background">#f6f6f7</color>
+    <color name="tabMedium">#2B2B2B</color>
+    <color name="tabDark">#000000</color>
+    <color name="tabTransparent">#ffffff</color>
+
+    <!-- Custom News Feeds-->
+    <color name="white">#ffffff</color>
+    <color name="whieTrans">#20ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+
+<!-- Mailing Service -->
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+
+
+
+    <!--- THEME COLOR-->
+    <color name="colorLibrary">#D84C4C</color>
+    <color name="colorHome">#4CD8BF</color>
+    <color name="colorExams">#4CBFD8</color>
+    <color name="colorTracker">#D89A35</color>
+    <color name="colorProfile">#9B5BE3</color>
+
+
+    <color name="tab_store_border">#10a7a7aa</color>
+    <color name="fadedOrange">#15CC6600</color>
+    <color name="orange">#CC6600</color>
+    <color name="darkOrange">#A44500</color>
+
+
+
+
+    <!-- Intro-->
+    <!-- Welcome Screens background color-->
+    <color name="bg_screen0">#6fb98f</color>
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#bc80bb</color>
+    <color name="bg_screen4">#03526d</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen0">#ffffff</color>
+    <color name="dot_dark_screen1">#424242</color>
+    <color name="dot_dark_screen2">#2278d4</color>
+    <color name="dot_dark_screen3">#a854d4</color>
+    <color name="dot_dark_screen4">#9bb5bc</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen0">#1e8c96</color>
+    <color name="dot_light_screen1">#FFFFFF</color>
+    <color name="dot_light_screen2">#93c6fd</color>
+    <color name="dot_light_screen3">#e4b5fc</color>
+    <color name="dot_light_screen4">#ffffff</color>
+    <color name="white_transparent">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen0</item>
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen0</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>
